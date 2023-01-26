@@ -1,0 +1,28 @@
+{
+  "productList": [
+   {
+    "id": 1,
+    "title": "Iphone 12",
+    "price": 12500,
+    "description": "Great phone with super camera"
+   },
+   {
+    "id": 2,
+    "title": "xiaomi 12",
+    "price": 9500,
+    "description": "Great phone with super charging"
+   },
+   {
+    "id": 3,
+    "title": "LG X40",
+    "price": 8500,
+    "description": "Budget friendly phone"
+   },
+   {
+    "id": 4,
+    "title": "Nokia 3210",
+    "price": 500,
+    "description": "Just a phone"
+   }
+  ]
+}

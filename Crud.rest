@@ -1,0 +1,33 @@
+GET http://localhost:3000/products/
+//alla prdukter visas
+
+###
+
+GET http://localhost:3000/products/1
+// en specifik product med hjälp av id
+
+
+###
+
+POST http://localhost:3000/products/
+Content-Type: application/json
+
+  {
+    "title": "Iphone 14 pro max",
+    "price": 17500,
+    "description": "This Phone is as big as a brick and needs a seperate bag"
+   }
+
+###
+
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+"title": "Tesla phone t10",
+"price": 25000,
+"description": "Sell your house and buy this phone"
+}
+###
+
+DELETE http://localhost:3000/products/1
